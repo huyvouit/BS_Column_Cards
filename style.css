@@ -1,0 +1,98 @@
+*{  
+    box-sizing: border-box;
+}
+.zone{
+    /* margin-top: 120px; */
+    margin: 100px;
+}
+.content{
+    border-radius: 5px;
+    height: auto;
+    margin: 0 50px;
+   
+}
+#content__one{
+    background-color: #e38826;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+#content__two{
+    background-color: #006970;
+    
+}
+#content__three{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.text-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+.content__text{
+    max-width: auto;
+}
+.content__text__p{
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.8px;
+}
+.button-link__two{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+    border:  2px solid hsl(0, 0%, 95%);
+    color:#006970;
+}
+.button-link__one{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+    border:  2px solid hsl(0, 0%, 95%);
+    color:#e38826;
+}
+.button-link__three{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+    border:  2px solid white;
+    color:hsl(179, 100%, 13%);
+}
+.button-link__one:hover{
+    text-decoration: none;
+    background-color: #e38826;
+    color: hsl(0, 0%, 95%);
+}
+.button-link__two:hover{
+    text-decoration: none;
+    background-color: #006970;
+    color: hsl(0, 0%, 95%);
+}
+.button-link__three:hover{
+    text-decoration: none;
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+@media (max-width:991px){
+    .zone{
+        margin: 50px;
+    }
+    #content__one{
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0;
+        
+    }
+    #content__three{
+        border-top-right-radius: 0;
+        
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+}
