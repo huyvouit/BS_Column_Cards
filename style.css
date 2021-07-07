@@ -1,14 +1,16 @@
 *{  
     box-sizing: border-box;
 }
+
 .zone{
-    /* margin-top: 120px; */
-    margin: 80px;
+    
+    margin-top: 120px;
+    
 }
 .content{
     border-radius: 5px;
     height: auto;
-    margin: 0 50px;
+    /* margin: 0 50px; */
    
 }
 #content__one{
@@ -80,9 +82,7 @@
     color: hsl(0, 0%, 95%);
 }
 @media (max-width:991px){
-    .zone{
-        margin: 50px;
-    }
+    
     #content__one{
         border-top-left-radius: 7px;
         border-top-right-radius: 7px;
@@ -95,4 +95,11 @@
         border-bottom-left-radius: 7px;
         border-bottom-right-radius: 7px;
     }
+}
+
+@media (max-width:575px){
+    .zone{
+        margin: 50px 0;
+    }
+    
 }
